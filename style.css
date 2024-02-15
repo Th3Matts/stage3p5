@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #1E1E1E;
+}
+
+.card{
+  background: #202024;
+
+  width: 23rem;
+  height: 30rem;
+
+  border: 2px solid #323238;
+  border-radius: 8px;
+  
+  display: flex;
+
+  padding: 0 2rem 2rem;
+
+  overflow: hidden;
+}
+
+.card h2{
+  color: #E1E1E6;
+
+  font-size: 2rem;
+  font-weight: 900; 
+
+  padding: 1.3rem 2rem 0;
+}
+
+.card p{
+  color: #C4C4CC;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.3rem 2rem 2rem;
+}
